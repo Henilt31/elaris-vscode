@@ -1,0 +1,41 @@
+{
+  "name": "elaris-theme",
+  "displayName": "Elaris",
+  "description": "A clean VS Code theme designed for focused daylight coding.",
+  "version": "0.1.0",
+  "publisher": "henilthakkar",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "light theme",
+    "elaris",
+    "minimal",
+    "clean",
+    "daylight",
+    "focus"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Henilt31/elaris-vscode.git"
+  },
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#F7F8FA",
+    "theme": "light"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Elaris",
+        "uiTheme": "vs",
+        "path": "./themes/elaris-color-theme.json"
+      }
+    ]
+  }
+}
