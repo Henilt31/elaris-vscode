@@ -7,6 +7,10 @@
   "engines": {
     "vscode": "^1.80.0"
   },
+  "scripts": {
+    "validate": "node test/validate.js",
+    "test": "npm run validate"
+  },
   "categories": [
     "Themes"
   ],
