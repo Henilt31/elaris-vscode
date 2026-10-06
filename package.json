@@ -28,6 +28,10 @@
     "type": "git",
     "url": "https://github.com/Henilt31/elaris-vscode.git"
   },
+  "bugs": {
+    "url": "https://github.com/Henilt31/elaris-vscode/issues"
+  },
+  "homepage": "https://github.com/Henilt31/elaris-vscode#readme",
   "icon": "assets/icon.png",
   "galleryBanner": {
     "color": "#F7F8FA",
