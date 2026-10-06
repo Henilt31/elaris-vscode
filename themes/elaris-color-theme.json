@@ -672,6 +672,134 @@
       "settings": {
         "foreground": "#596273"
       }
+    },
+    {
+      "name": "Rust Lifetimes & Macros",
+      "scope": [
+        "storage.modifier.lifetime.rust",
+        "entity.name.lifetime.rust",
+        "support.macro.rust",
+        "entity.name.function.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#BE4056"
+      }
+    },
+    {
+      "name": "Rust Traits & Impl",
+      "scope": [
+        "entity.name.type.trait.rust",
+        "keyword.other.rust"
+      ],
+      "settings": {
+        "foreground": "#087EA4"
+      }
+    },
+    {
+      "name": "Go Packages & Builtins",
+      "scope": [
+        "entity.name.package.go",
+        "keyword.package.go",
+        "keyword.import.go"
+      ],
+      "settings": {
+        "foreground": "#7C3AED"
+      }
+    },
+    {
+      "name": "C/C++ Preprocessor & Directives",
+      "scope": [
+        "keyword.control.directive",
+        "punctuation.definition.directive",
+        "entity.name.function.preprocessor"
+      ],
+      "settings": {
+        "foreground": "#7C3AED"
+      }
+    },
+    {
+      "name": "Java/C# Annotations & Attributes",
+      "scope": [
+        "storage.type.annotation",
+        "punctuation.definition.annotation"
+      ],
+      "settings": {
+        "foreground": "#B77900"
+      }
+    },
+    {
+      "name": "PHP Variables & Sigils",
+      "scope": [
+        "variable.other.php",
+        "punctuation.definition.variable.php"
+      ],
+      "settings": {
+        "foreground": "#1D2433"
+      }
+    },
+    {
+      "name": "React Component Names (JSX/TSX)",
+      "scope": [
+        "support.class.component.tsx",
+        "support.class.component.jsx",
+        "entity.name.tag.tsx",
+        "entity.name.tag.jsx"
+      ],
+      "settings": {
+        "foreground": "#2563EB"
+      }
+    },
+    {
+      "name": "Python Special & Magic Methods",
+      "scope": [
+        "support.function.magic.python",
+        "support.variable.magic.python"
+      ],
+      "settings": {
+        "foreground": "#2563EB",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Shell Variables & Builtins",
+      "scope": [
+        "source.shell variable.other",
+        "support.function.builtin.shell"
+      ],
+      "settings": {
+        "foreground": "#175EA8"
+      }
+    },
+    {
+      "name": "PowerShell Cmdlets & Variables",
+      "scope": [
+        "support.function.powershell",
+        "variable.other.member.powershell"
+      ],
+      "settings": {
+        "foreground": "#2563EB"
+      }
+    },
+    {
+      "name": "SQL Keywords & Functions",
+      "scope": [
+        "keyword.other.DML.sql",
+        "keyword.other.DDL.sql",
+        "support.function.scalar.sql",
+        "support.function.aggregate.sql"
+      ],
+      "settings": {
+        "foreground": "#2563EB"
+      }
+    },
+    {
+      "name": "JSON Primitive Constants",
+      "scope": [
+        "constant.language.json"
+      ],
+      "settings": {
+        "foreground": "#BE4056"
+      }
     }
   ]
 }
