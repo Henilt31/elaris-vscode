@@ -1,0 +1,82 @@
+/* Elaris Theme - CSS Stylesheet Demo */
+:root {
+  --elaris-bg: #F7F8FA;
+  --elaris-editor: #FFFFFF;
+  --elaris-sidebar: #F3F5F8;
+  --elaris-surface-hover: #EEF1F5;
+  --elaris-border: #D9DEE7;
+  --elaris-text-main: #1D2433;
+  --elaris-text-muted: #596273;
+  --elaris-accent-primary: #5B4BDB;
+  --elaris-accent-secondary: #1687C8;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body.theme-elaris {
+  background-color: var(--elaris-bg);
+  color: var(--elaris-text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+.content-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 2rem;
+  background-color: var(--elaris-editor);
+  border: 1px solid var(--elaris-border);
+  border-radius: var(--radius-md);
+  box-shadow: 0 2px 8px rgba(29, 36, 51, 0.04);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 700;
+  color: var(--elaris-accent-primary);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.4rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 160ms ease;
+}
+
+.btn-primary {
+  background-color: var(--elaris-accent-primary);
+  color: #FFFFFF;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #4D3EC4;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+}

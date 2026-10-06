@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "elaris-theme-workspace",
+  "version": "1.0.0",
+  "description": "Realistic configuration payload to test daylight JSON syntax highlighting",
+  "private": true,
+  "themeSettings": {
+    "activeTheme": "Elaris",
+    "bracketPairColorization": true,
+    "cursorBlinking": "smooth",
+    "cursorSmoothCaretAnimation": "on",
+    "fontFamily": "'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace",
+    "fontSize": 14,
+    "lineHeight": 22,
+    "renderWhitespace": "selection"
+  },
+  "palette": {
+    "background": "#F7F8FA",
+    "editor": "#FFFFFF",
+    "sidebar": "#F3F5F8",
+    "primary": "#5B4BDB",
+    "secondary": "#1687C8",
+    "border": "#D9DEE7"
+  },
+  "environment": {
+    "ambientLight": "high",
+    "focusMode": true,
+    "screenGlareReduction": true
+  },
+  "metrics": {
+    "activeUsers": 1420,
+    "satisfactionScore": 9.8,
+    "crashRate": null
+  }
+}

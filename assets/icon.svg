@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="elarisGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B4BDB" />
+      <stop offset="100%" stop-color="#1687C8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background squircle -->
+  <rect x="8" y="8" width="240" height="240" rx="54" fill="#FFFFFF" stroke="#D9DEE7" stroke-width="4" />
+
+  <!-- Outer Sun Halo -->
+  <circle cx="128" cy="128" r="80" fill="none" stroke="#E7EAF0" stroke-width="6" />
+
+  <!-- Radiant Daylight Horizon Arc -->
+  <path d="M 60 148 A 72 72 0 0 1 196 148" fill="none" stroke="url(#elarisGrad)" stroke-width="12" stroke-linecap="round" />
+
+  <!-- Geometric Abstract 'E' / Sunrise Beams -->
+  <!-- Vertical Spine -->
+  <line x1="88" y1="84" x2="88" y2="172" stroke="#5B4BDB" stroke-width="14" stroke-linecap="round" />
+
+  <!-- Top Ray / Top Bar -->
+  <line x1="88" y1="84" x2="168" y2="84" stroke="url(#elarisGrad)" stroke-width="14" stroke-linecap="round" />
+
+  <!-- Center Ray / Center Bar -->
+  <line x1="88" y1="128" x2="152" y2="128" stroke="#1687C8" stroke-width="12" stroke-linecap="round" />
+
+  <!-- Bottom Ray / Bottom Bar -->
+  <line x1="88" y1="172" x2="168" y2="172" stroke="#5B4BDB" stroke-width="14" stroke-linecap="round" />
+
+  <!-- Rising Core Light -->
+  <circle cx="128" cy="106" r="6" fill="#1687C8" />
+</svg>
